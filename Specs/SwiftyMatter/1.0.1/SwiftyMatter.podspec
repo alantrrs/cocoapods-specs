@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage              = "https://github.com/xmartlabs/SwiftyMatter"
   s.license               = { type: 'MIT', file: 'LICENSE' }
   s.author                = { "Xmartlabs SRL" => "swift@xmartlabs.com" }
-  s.source                = { git: "https://github.com/GNSMFCORP/SwiftyMatter.git", tag: s.version.to_s }
+  s.source                = { git: "https://github.com/GNSMFCORP/SwiftyMatter.git", branch: 'xcode9' }
   s.social_media_url      = 'https://twitter.com/xmartlabs'
   s.ios.deployment_target = '9.0'
   s.requires_arc          = true
@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
     sp.dependency 'Eureka', '~> 3.0.0'
     sp.dependency 'PluggableApplicationDelegate', '~> 0.1.2'
     sp.dependency 'OperaSwift', '~> 2.0.0'
-    sp.dependency 'RealmSwift', '~> 2.6.1'
+    sp.dependency 'RealmSwift', '~> 2.8.3'
     sp.dependency 'RxRealm', '~> 0.6.0'
     sp.dependency 'RxSwift', '~> 3.4.0'
     sp.dependency 'Decodable', '~> 0.5'
